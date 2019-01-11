@@ -1,0 +1,15 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+basically descriptive tags. if it's a main section use main
+
+Name two big differences between display: block; and display: inline;.
+block is on its on level. inline block is contained on its on line.
+
+What are the 4 areas of the box model?
+margin, padding, border, content
+
+While using flexbox, what axis does the following property work on: align-items: center?
+cross axis for a row. main axis for a column.
+
+Explain why git is valuable to a team of developers.
+its a way to save and split up your work to better work together and not
+get lost and re work over someone else
