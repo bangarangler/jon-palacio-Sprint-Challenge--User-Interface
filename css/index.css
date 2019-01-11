@@ -408,3 +408,8 @@ p {
   width: 100px;
   height: 30px;
 }
+
+.small-line {
+  border-top: 1px dashed lightgray;
+  margin-top: 20px;
+}
