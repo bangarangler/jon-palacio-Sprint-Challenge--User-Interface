@@ -187,6 +187,12 @@ p {
   color: black;
 }
 
+.flex-nav ul li a:hover {
+  border-bottom: 1px solid darkorchid;
+  text-transform: uppercase;
+  transform: scale(1, 2);
+}
+
 .big-img-main {
   margin: 20px;
 }
