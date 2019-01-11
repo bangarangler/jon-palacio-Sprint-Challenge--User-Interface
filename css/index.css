@@ -409,6 +409,12 @@ p {
   height: 30px;
 }
 
+.btn:hover {
+  background-color: black;
+  border: 1px solid darkorchid;
+  color: white;
+}
+
 .small-line {
   border-top: 1px dashed lightgray;
   margin-top: 20px;
@@ -428,6 +434,12 @@ p {
   flex: 1 0 120px;
   max-width: 220px;
   margin: 30px;
+  color: black;
+}
+
+.flex-outer > li > label:hover {
+  border-bottom: 1px solid darkorchid;
+  width: auto;
 }
 
 #first-name,
@@ -457,4 +469,10 @@ p {
 
 .flex-outer li button:hover {
   background: #333;
+}
+
+.flex-outer input,
+textarea {
+  outline: none;
+  border: 2px solid darkorchid;
 }
