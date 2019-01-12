@@ -384,7 +384,7 @@ footer nav a {
 
 .line {
   border-top: 1px dashed black;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .about__flex-container {
@@ -398,13 +398,20 @@ footer nav a {
 .strategy-container {
   /*border: 1px solid red;*/
   margin: 10px;
-  padding: 10px;
+  padding: 1px;
 }
 
-.strategy-container img,
+.strategy-container,
 h2,
 p {
   margin: 10px;
+}
+
+.shrink {
+  margin-left: 11px;
+  margin-right: 0;
+  max-width: 350px;
+  max-height: 216px;
 }
 
 .btn {
@@ -441,6 +448,12 @@ p {
   max-width: 220px;
   margin: 30px;
   color: black;
+}
+
+.flex-outer > li > label {
+  /*background-color: green;*/
+  max-width: 10.3%;
+  text-align: center;
 }
 
 .flex-outer > li > label:hover {
