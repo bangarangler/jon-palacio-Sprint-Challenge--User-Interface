@@ -191,6 +191,7 @@ p {
   border-bottom: 1px solid darkorchid;
   text-transform: uppercase;
   transform: scale(1, 2);
+  transition-duration: 0.7s;
 }
 
 .big-img-main {
